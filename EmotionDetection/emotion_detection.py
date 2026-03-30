@@ -22,7 +22,7 @@ def emotion_detector(text_to_analyse):
 
         return emotions
 
-    elif response.status_code == 500:
+    elif response.status_code == 400:
         return None
     
 
